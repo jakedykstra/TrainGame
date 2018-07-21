@@ -1,0 +1,14 @@
+
+table {
+    width: 980px;
+    min-height: 200px;
+}
+
+form input {
+    display: block;
+}
+
+h3 {
+   width: 980px;
+   background-color: aqua; 
+}
