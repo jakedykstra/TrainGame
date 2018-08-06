@@ -24,7 +24,7 @@
 
         <section class="trains-table col-md-12">
             <h3>Current Train Schedule</h3>
-            <table class="col-md-12 table">
+            <table class="col-md-12 table  blueTable">
                 <tr>
                     <th>Train Name</th>
                     <th>Destination</th>
@@ -32,23 +32,21 @@
                     <th>Next Arrival</th>
                     <th>Minutes Away</th>
                 </tr>
-                <tbody>
-
-                </tbody>
             </table>
 
         </section>
         <section class="train-inputs">
             <h3>Add Train</h3>
             <form action="#" method="post" class="train">
-                Train Name:
-                <input type="text" class="train-name"> 
-                Destination:
-                <input type="text" class="destination"> 
-                First Train Time:
-                <input type="number" class="first-train-time"> 
-                Frequency(min):
-                <input type="text" class="frequency">
+                <span>Train Name:
+                    <input type="text" class="train-name"> </span>
+                <span>Destination:
+                    <input type="text" class="destination"> </span>
+                <span>First Departure:
+                    <input type="number" class="first-train-time"> </span>
+                <span>Frequency(min):
+                    <input type="text" class="frequency">
+                </span>
                 <button class="submit">Submit</button>
             </form>
         </section>
