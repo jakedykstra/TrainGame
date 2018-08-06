@@ -1,14 +1,39 @@
 
+* {
+    margin: 0;
+    padding: 0;
+ }
+ 
+ *,
+ *::before,
+ *::after {
+    box-sizing: inherit;
+ }
+ 
+ html {
+    box-sizing: border-box;
+    font-size: 62.5%; }
+
 table {
-    width: 980px;
-    min-height: 200px;
+    min-height: 20rem;
 }
 
 form input {
     display: block;
 }
 
+.trains-table {
+    padding: none !important;
+}
+
 h3 {
-   width: 980px;
-   background-color: aqua; 
+   background-color: rgba(20, 70, 70, 0.685); 
+   padding: none;
+}
+
+.header {
+    font-size: 20rem;
+    height: 10vh;
+    background-color: aqua;
+   
 }
